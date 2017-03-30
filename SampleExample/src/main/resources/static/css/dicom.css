@@ -1,0 +1,509 @@
+div.container {
+    width: 80%;
+    /* border: 1px solid gray; */
+    margin-left: 10px;
+}
+header{
+    /* padding: 0em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center; */
+}
+
+
+footer {
+    padding: 0em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    width: 100%;
+    border: 1px solid white;
+    /* overflow-x:scroll !important; */
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-left: 9px;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+   /*  margin-left: 10px; */
+   /*  border-left: 1px solid gray; */
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+#controlId{
+	    /* margin-left: 300px;; */
+	    position: relative;
+	    text-align: center;
+	   /*  border: 1px solid #0080ff; */
+	    height: 80px;
+}
+#controlId input{
+	height:24px; 
+    width:80px; 
+    /* position:relative;
+    left:10%; */
+	
+}
+
+
+.imageDiv{
+    width:100%;
+    margin:0 auto;
+	float:left;
+	display: block;
+	background-color: black;
+	overflow: hidden;
+    position: relative;
+ /*    border: 1px solid #0080ff; */
+    height: 375px;
+    text-align: center;
+}
+
+.imageDiv img {
+  width:400px;
+  /* margin-left: 200px; */
+  /* background-color: white; */
+  /* left:45%;
+  right:50%; */
+}
+
+
+
+
+
+
+
+
+h1{
+	color:#0000FF;
+}
+
+h4{
+	color:black;
+	text-align: center;
+}
+/* .imageDiv img {
+   width: 55%;
+  margin-left: 313px;
+  background-color: white;
+  border-radius: 50%;
+}
+.imageDiv{
+    height: 380px;
+    border: 1px solid lime;
+    display: table;
+    background-color: black;
+    margin-left: 130px;
+    overflow: hidden;
+    max-width: 80%;
+} */
+/* .controlsDiv{
+    width: 100%;
+    height: 100px;
+    border: 1px solid lime;
+    display: table;
+    margin-left: 192px;
+    position:relative;
+} */
+/* .controlsDiv #start{
+    height:24px; 
+    width:80px; 
+    margin: 16px -96px;
+    position:relative;
+    top:50%; 
+    left:50%;
+}  
+
+.controlsDiv #stop{
+    height:24px; 
+    width:80px; 
+    margin: 16px -96px;
+    position:relative;
+    top:50%; 
+    left:50%;
+}  
+.controlsDiv #speedIncrease{
+    height:24px; 
+    width:80px; 
+    margin: 16px -96px;
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+.controlsDiv #speedDecrease{
+    height:24px; 
+    width:80px; 
+    margin: 16px -96px;
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+.controlsDiv #nextId{
+    height:24px; 
+    width:80px; 
+    margin: 16px -96px;
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+.controlsDiv #prevId{
+    height:24px; 
+    width:80px; 
+    margin: 16px -96px;
+    position:relative;
+    top:50%; 
+    left:50%;
+} */
+
+.drag {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    text-algin: center;
+    background-color: lightpink;
+}
+
+/* .img-zoom {
+    width: 500px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+} */
+ 
+.transition {
+	width: 200px;
+    -webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+} 
+
+#draggable {
+	width: 60%; 
+	height: 100px; 
+	padding: 0.5em;
+}
+
+#main{
+	padding-left: 50px;
+    z-index: 1;
+ 	width:90%;
+	/* margin: auto ; */
+}
+
+#colorsId{
+	width: 80%;
+	float: left;
+	margin-left: 100px;
+}
+
+/* #container{
+	width: 100%;
+}
+#subContainer1{
+	width: 100%;
+}
+#subContainer2 {
+	width: 100%;
+	
+} */
+/* #subContainer2 input[type=range]{
+	width: 20%;
+	
+} */
+ul li {
+	
+	width: 50%;
+	display:inline-block;
+    vertical-align: top;
+}
+
+#subContainer1{
+	/* width:1000px;
+	margin:0 auto;
+	float:left; */
+    margin-left: 4px;
+    padding: 5px;
+}
+#subContainer2{
+    margin-left: -52px; 
+}
+#subContainer2 ul li{
+	width:110px;
+    margin-left: 13px;
+    padding: 7px;
+}
+#subContainer1 img {
+    margin-left: 60px;
+}
+
+.class{
+	
+	margin-top:-5px;
+	z-index:99999;
+	display:block;
+}
+
+#arrowR{
+background:yellow;
+    width:20px;
+    height:50px;
+    float:right;
+    cursor:pointer;
+}
+
+
+#arrowL{
+background:yellow;
+    width:20px;
+    height:50px;
+    float:left;
+    cursor:pointer;
+}
+
+
+/* span.arrow-left,span.arrow-right{
+    display: block;
+    position: absolute;
+    background-color: #555;
+    top: 40px;
+    color:white;
+    z-index: 2;
+    cursor: pointer;
+    
+    display: block;
+    position: absolute;
+    background-color: #555;
+    top: 777px;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+    left: 1074px;
+    width: 33px;
+}
+span.arrow-left{
+    left: 0px;
+}
+span.arrow-right{
+    right: 0px;
+}
+span.arrow-left:hover,.offer-pg span.arrow-right:hover{
+    background-color: #333;
+} */
+
+span.arrow-left{
+    /* display: block;
+    position: absolute;
+    background-color: #555;
+    top: 40px;
+    color:white;
+    z-index: 2;
+    cursor: pointer; */
+    
+    display: block;
+    position: absolute;
+    background-color: #555;
+    top: 777px;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+    left: 1074px;
+    width: 33px;
+    
+   /*  background:yellow;
+    width:20px;
+    height:50px;
+    float:left;
+    cursor:pointer; */
+}
+span.arrow-right{
+    display: block;
+    position: absolute;
+    background-color: #555;
+    top: 777px;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+    left: 1074px;
+    width: 33px;
+    
+    /* background:yellow;
+    width:20px;
+    height:50px;
+    float:right;
+    cursor:pointer; */
+}
+
+span.arrow-left{
+    left: 0px;
+}
+span.arrow-right{
+    right: 0px;
+}
+span.arrow-left:hover,.offer-pg span.arrow-right:hover{
+    background-color: #333;
+}
+
+
+/* div#controlId div#slidId
+{
+    display:none;
+} */
+/* .imageDiv{
+    height: 380px;
+    border: 1px solid lime;
+    display: table;
+    background-color: black;
+    margin-left: 130px;
+    overflow: hidden;
+    max-width: 80%;
+    width:900px;
+    margin:0 auto;
+	float:left;
+	margin-left: 271px;
+	margin-left:75px;
+	display: block;
+	background-color: black;
+	overflow: hidden;
+    position: relative;
+    border: 1px solid #0080ff;
+    height: 375px;
+    min-width: 800px;
+    min-height: 200px;
+    max-width: 800px;
+   
+} */
+/* .imageDiv img {
+  width:400px;
+  margin-left: 200px;
+  background-color: white;
+  height: 300px;
+  min-width: 200px;
+  min-height: 100px;
+  max-width: 800px;
+  position: absolute;
+    height: 300px; width: 300px; -webkit-transition: all 2s ease; -moz-transition: all 2s ease; -ms-transition: all 2s ease; transition: all 2s ease; 
+  border-radius: 50%;
+} */
+
+/* .imageDiv img:hover { width: 200px; height: 200px; }  */
+
+.controlsDiv{
+    width:800px;
+	/* float:left;
+	 margin-left: 310px; 
+	 overflow: hidden;
+	 padding:20px;
+	 display: block; */
+	    /*  float: left; */
+    margin-left: 420px;
+    padding:10px;
+    float:left;
+}
+
+.controlsDiv input{
+	height:24px; 
+    width:80px; 
+    /* position:relative;
+    left:10%; */
+	
+}
+
+.horizontalFlip {
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -khtml-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    background-color:black !important;
+}
+
+.verticalFlip   {
+	-webkit-transform: matrix(1, 0, 0, -1, 0, 0) ;
+	background-color:black !important;
+}
+
+
+
+.img-vert {
+        -moz-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+        filter: FlipV;
+        -ms-filter: "FlipV";
+}
+
+.img-hor {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+div#navigation {
+/*   float: left;
+  width: 250px;
+  height: 85%;
+  color: #ffffff;
+  background-color: #666;
+  border: 1px solid #000;
+  padding: 10px;
+  margin-left: 10px;
+  overflow-y:scroll; */
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-top:300px;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-left: 10px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.whiteBorderClass{
+	
+	border:1px solid white;
+}
+.blackBorderClass{
+	
+	border:1px solid black;
+}
+
+
+
+
+
+
+
+
